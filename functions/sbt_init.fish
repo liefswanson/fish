@@ -14,7 +14,7 @@ function sbt_init
 	# create an initial build.sbt file
 	echo 'name := "MyProject"
 version := "1.0"
-scalaVersion := "2.11.5"
+scalaVersion := "2.11.7"
 sbtPlugin := true' > build.sbt
 
     echo 'sbt.version=0.13.7' > project/build.properties
